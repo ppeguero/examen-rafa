@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'BebasNue': 'Bebas Nue, sans-serif'
+        'BebasNue': ['Bebas Neue, sans-serif']
       }
     },
   },
