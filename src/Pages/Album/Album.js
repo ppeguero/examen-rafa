@@ -20,7 +20,12 @@ const Album = () => {
 
     return (
         <div>
+<<<<<<< HEAD
             <h1>Hola Misael</h1>
+=======
+
+            
+>>>>>>> 029a6e359df09c92424c33d115d5f770e8a59dfc
         </div>
     );
 }
