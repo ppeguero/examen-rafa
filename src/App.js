@@ -1,11 +1,14 @@
 import React, {useState} from 'react'
 import Album from './Pages/Album/Album.js'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <>
-      <Album/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Album/>}></Route>
+      </Routes> 
+    </BrowserRouter>
   );
 }
 
