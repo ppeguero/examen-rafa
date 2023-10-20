@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'BebasNue': 'Bebas Nue, sans-serif'
+      }
+    },
   },
   plugins: [],
 }
